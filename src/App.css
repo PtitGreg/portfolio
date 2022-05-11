@@ -1,0 +1,12 @@
+.App {
+  background-color: black;
+  background-image: url("../loader.gif") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+  text-align: center;
+  color: aqua;
+}
+h1{
+  animation-direction: alternate;
+}
