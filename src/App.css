@@ -1,12 +1,11 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
   background-image: url("../loader.gif") ;
   background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 100vh;
-  text-align: center;
+  background-position: center;
+  height: 100vh;
   color: aqua;
-}
-h1{
-  animation-direction: alternate;
 }
