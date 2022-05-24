@@ -2,10 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  background-image: url("../loader.gif") ;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: black url("../loader.gif")  no-repeat center ;
   height: 100vh;
   color: aqua;
 }

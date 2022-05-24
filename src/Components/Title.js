@@ -1,7 +1,7 @@
 import React from "react";
 import { Pace, useIsFinished, WindupChildren } from "windups";
 
-const Title = () => {
+const title = () => {
 	const RewindProcess = () => {
 		const isFinished = useIsFinished();
 		return isFinished ? window.location.reload(false) : null;
@@ -13,7 +13,7 @@ const Title = () => {
 				<h1>Portfolio en cours de développement...</h1>
 			</Pace>
 		</WindupChildren>
-	);
-};
+	)
+}
 
-export default Title;
+export default title
